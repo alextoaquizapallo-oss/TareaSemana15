@@ -8,19 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-/**
- * @author alext
- */
 public class TareaSemana15 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         Map<String, Integer> registro = new HashMap<>();
         Scanner sc = new Scanner(System.in);
 
-        // Notas iniciales 
         registro.put("Alex Toaquiza", 9);
         registro.put("Madeley Pallo", 7);
 
